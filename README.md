@@ -1,35 +1,42 @@
-***Fraud Detection Model Development***
-***Introduction***
+<H1>Fraud Detection Model Development </H1>
+<h2>Introduction</h2>
 
-This notebook focuses on building a fraud detection model using machine learning techniques. The objective is to preprocess a financial dataset, train predictive models, and evaluate their performance to identify fraudulent transactions.
+<p>This notebook focuses on building a fraud detection model using machine learning techniques. The objective is to preprocess a financial dataset, train predictive models, and evaluate their performance to identify fraudulent transactions.</p>
 
-Sections Overview
+<h2>Sections Overview</h2>
 
-1. Data Loading
+<ul>
+  <ol>
+    1. Data Loading
 Description: Load the financial dataset from a CSV file.
 Key Functions:
 pd.read_csv(): Reads the data from the specified path.
-
-2. Data Exploration
+  </ol>
+  <ol>
+    2. Data Exploration
 Description: Explore the dataset to understand its structure and identify potential issues like missing values.
 Key Steps:
 Overview of columns, data types, and summary statistics.
 Identify missing values using df.isnull().sum().
-
-3. Data Preprocessing
+  </ol>
+  <ol>
+    3. Data Preprocessing
 Description: Clean and prepare the dataset for model training.
 Key Techniques:
 Impute missing values using the median to avoid outliers.
 Handle categorical variables through encoding techniques.
 Normalize numerical features for uniform scaling.
-
+  </ol>
+  <ol>
 4. Feature Selection
 Description: Select the most relevant features for the model.
 Key Techniques:
 Correlation analysis using df.corr().
 Feature importance using tree-based models.
-
-5. Model Development
+    
+  </ol>
+  <ol>
+    5. Model Development
 Description: Build and train machine learning models.
 Algorithms Used:
 Logistic Regression
@@ -39,7 +46,9 @@ Gradient Boosting Machines (e.g., XGBoost)
 Key Libraries:
 scikit-learn
 xgboost
-
+  </ol>
+  <ol>
+    
 6. Model Evaluation
 Description: Evaluate model performance using metrics like:
 Accuracy
@@ -51,6 +60,18 @@ Key Functions:
 classification_report()
 roc_curve()
 auc()
+  </ol>
+</ul>
+
+
+
+
+
+
+
+
+
+
 
 7. Hyperparameter Tuning
 Description: Optimize model parameters for better performance.
