@@ -103,18 +103,21 @@ Adequate memory for handling large datasets
 
 <hr>
 
-***API Documentation for Financial Insights and Scoring***
-***Overview***
+<h1>API Documentation for Financial Insights and Scoring</h1>
+<h2>Overview</h2>
 
-This API is built using Flask to expose the financial scoring model. It accepts financial transaction data, processes it, and returns a financial score along with insights.
+<p>This API is built using Flask to expose the financial scoring model. It accepts financial transaction data, processes it, and returns a financial score along with insights.</p>
 
-Endpoints
-1. /api/calculate_score
+<h2>Endpoints</h2>
+<ol>
+<b>1. /api/calculate_score</b>
+  <ul>
 Method: POST
 Description: Processes financial transaction data and calculates a financial score with recommendations.
 Request Payload:
 transactionData (JSON): A list of transactions for a family, each containing details like income, expenses, savings, and category distributions.
-
+    </ul>
+</ol>
 ***Key Components***
 
 Flask Framework:
