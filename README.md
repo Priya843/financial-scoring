@@ -7,36 +7,40 @@
 
 <ul>
   <ol>
-    1. Data Loading
+    <b>1. Data Loading</b>
 Description: Load the financial dataset from a CSV file.
 Key Functions:
 pd.read_csv(): Reads the data from the specified path.
   </ol>
+  <br>
   <ol>
-    2. Data Exploration
+    <b>2. Data Exploration</b>
 Description: Explore the dataset to understand its structure and identify potential issues like missing values.
 Key Steps:
 Overview of columns, data types, and summary statistics.
 Identify missing values using df.isnull().sum().
   </ol>
+  <br>
   <ol>
-    3. Data Preprocessing
+    <b>3. Data Preprocessing</b>
 Description: Clean and prepare the dataset for model training.
 Key Techniques:
 Impute missing values using the median to avoid outliers.
 Handle categorical variables through encoding techniques.
 Normalize numerical features for uniform scaling.
   </ol>
+  <br>
   <ol>
-4. Feature Selection
+<b>4. Feature Selection</b>
 Description: Select the most relevant features for the model.
 Key Techniques:
 Correlation analysis using df.corr().
 Feature importance using tree-based models.
     
   </ol>
+  <br>
   <ol>
-    5. Model Development
+    <b>5. Model Development</b>
 Description: Build and train machine learning models.
 Algorithms Used:
 Logistic Regression
@@ -47,6 +51,7 @@ Key Libraries:
 scikit-learn
 xgboost
   </ol>
+  <br>
   <ol>
     
 <b>6. Model Evaluation<b>
@@ -61,6 +66,7 @@ classification_report()
 roc_curve()
 auc()
   </ol>
+  <br>
   <ol>
     <b>7. Hyperparameter Tuning</b>
 Description: Optimize model parameters for better performance.
@@ -68,6 +74,7 @@ Key Techniques:
 Grid Search
 Randomized Search
   </ol>
+  <br>
   <ol>
     <b>8. Results Visualization</b>
 Description: Visualize key insights using plots for:
@@ -75,6 +82,7 @@ Feature importance
 Confusion matrix
 ROC curve
   </ol>
+  <br>
   <ol>
     <b>9. Deployment</b>
 Description: Export the final model for deployment.
@@ -93,10 +101,7 @@ Adequate memory for handling large datasets
   </ol>
 </ul>
 
-
-
-
-
+<hr>
 
 ***API Documentation for Financial Insights and Scoring***
 ***Overview***
