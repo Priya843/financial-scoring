@@ -166,8 +166,8 @@ transactionData (JSON): A list of transactions for a family, each containing det
 
 <h1>Sample Input</h1>
 
-[
-  {
+<p>[</p>
+ <p> { </p>
     <p>"Family ID": "FAM001",</p>
     <p>"Member ID": "FAM001_Member1",</p>
    <p> "Transaction Date": "07/10/2024",</p>
@@ -180,218 +180,217 @@ transactionData (JSON): A list of transactions for a family, each containing det
     <p>"Credit Card Spending": 2959,</p>
     <p>"Dependents": 2,</p>
     <p>"Financial Goals Met (%)": 68</p>
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "16/10/2024",
-    "Category": "Travel",
-    "Amount": 270.91,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "17/10/2024",
-    "Category": "Groceries",
-    "Amount": 91.1,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "25/10/2024",
-    "Category": "Healthcare",
-    "Amount": 198.23,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "25/10/2024",
-    "Category": "Education",
-    "Amount": 206.42,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "09/10/2024",
-    "Category": "Utilities",
-    "Amount": 100.19,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "06/10/2024",
-    "Category": "Healthcare",
-    "Amount": 116.73,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "23/10/2024",
-    "Category": "Groceries",
-    "Amount": 440.79,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "26/10/2024",
-    "Category": "Healthcare",
-    "Amount": 233.17,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "23/10/2024",
-    "Category": "Travel",
-    "Amount": 267.29,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "10/10/2024",
-    "Category": "Food",
-    "Amount": 117.96,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "23/10/2024",
-    "Category": "Entertainment",
-    "Amount": 280.55,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "06/10/2024",
-    "Category": "Utilities",
-    "Amount": 32.35,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "08/10/2024",
-    "Category": "Entertainment",
-    "Amount": 29.15,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "05/10/2024",
-    "Category": "Entertainment",
-    "Amount": 464.35,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  },
-  {
-    "Family ID": "FAM002",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "09/10/2024",
-    "Category": "Food",
-    "Amount": 397.4,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
-  }
-]
+ <p> },</p>
+<p>  {</p>
+  <p>  "Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+    <p>"Transaction Date": "16/10/2024",</p>
+    <p>"Category": "Travel",</p>
+    <p>"Amount": 270.91,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+<p>  },</p>
+ <p> { </p>
+  <p>  "Family ID": "FAM001",</p>
+   <p> "Member ID": "FAM001_Member1",</p>
+   <p> "Transaction Date": "17/10/2024",</p>
+    <p>"Category": "Groceries",</p>
+    <p>"Amount": 91.1,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+ <p> },</p>
+  <p>{</p>
+  <p>  "Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+    <p>"Transaction Date": "25/10/2024",</p>
+    <p>"Category": "Healthcare",</p>
+    <p>"Amount": 198.23,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p> {</p>
+   <p> "Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+    <p>"Transaction Date": "25/10/2024",</p>
+    <p>"Category": "Education",</p>
+    <p>"Amount": 206.42,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+  <p>},</p>
+  <p>{</p>
+  <p>  "Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+    <p>"Transaction Date": "09/10/2024",</p>
+    <p>"Category": "Utilities",</p>
+    <p>"Amount": 100.19,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+  <p>  "Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+ <p> },</p>
+  <p>{</p>
+  <p>  "Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+    <p>"Transaction Date": "06/10/2024",</p>
+    <p>"Category": "Healthcare",</p>
+    <p>"Amount": 116.73,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
+ <p> },</p>
+  <p>{</p>
+ <p>    "Family ID": "FAM001",</p>
+<p>     "Member ID": "FAM001_Member1",</p>
+<p>     "Transaction Date": "23/10/2024",</p>
+<p>     "Category": "Groceries",</p>
+<p>     "Amount": 440.79,</p>
+<p>     "Income": 113810,</p>
+<p>     "Savings": 20234,</p>
+<p>     "Monthly Expenses": 5781,</p>
+ <p>    "Loan Payments": 2422,</p>
+<p>     "Credit Card Spending": 2959,</p>
+<p>     "Dependents": 2,</p>
+<p>     "Financial Goals Met (%)": 68</p>
+<p>   },</p>
+<p>   {</p>
+<p>     "Family ID": "FAM001",</p>
+<p>     "Member ID": "FAM001_Member1",</p>
+<p>     "Transaction Date": "26/10/2024",</p>
+<p>     "Category": "Healthcare",</p>
+<p>     "Amount": 233.17,</p>
+<p>     "Income": 113810,</p>
+<p>     "Savings": 20234,</p>
+<p>     "Monthly Expenses": 5781,</p>
+ <p>    "Loan Payments": 2422,</p>
+ <p>    "Credit Card Spending": 2959,</p>
+ <p>    "Dependents": 2,</p>
+ <p>    "Financial Goals Met (%)": 68</p>
+<p>   },</p>
+<p>   {</p>
+<p>     "Family ID": "FAM001",</p>
+<p>     "Member ID": "FAM001_Member1",</p>
+<p>     "Transaction Date": "23/10/2024",</p>
+<p>     "Category": "Travel",</p>
+<p>     "Amount": 267.29,</p>
+<p>    "Income": 113810,</p>
+<p>     "Savings": 20234,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+<p>    "Family ID": "FAM001",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "10/10/2024",</p>
+<p>    "Category": "Food",</p>
+<p>    "Amount": 117.96,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+<p>    "Family ID": "FAM001",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "23/10/2024",</p>
+<p>    "Category": "Entertainment",</p>
+<p>    "Amount": 280.55,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+ <p>   "Family ID": "FAM001",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "06/10/2024",</p>
+<p>    "Category": "Utilities",</p>
+<p>    "Amount": 32.35,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+<p>    "Family ID": "FAM001",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "08/10/2024",</p>
+<p>    "Category": "Entertainment",</p>
+<p>    "Amount": 29.15,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+<p>    "Family ID": "FAM001",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "05/10/2024",</p>
+<p>    "Category": "Entertainment",</p>
+<p>    "Amount": 464.35,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+<p>    "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+<p>    "Financial Goals Met (%)": 68</p>
+<p>  },</p>
+<p>  {</p>
+<p>    "Family ID": "FAM002",</p>
+<p>    "Member ID": "FAM001_Member1",</p>
+<p>    "Transaction Date": "09/10/2024",</p>
+<p>    "Category": "Food",</p>
+<p>    "Amount": 397.4,</p>
+<p>    "Income": 113810,</p>
+<p>    "Savings": 20234,</p>
+<p>    "Monthly Expenses": 5781,</p>
+<p>    "Loan Payments": 2422,</p>
+ <p>   "Credit Card Spending": 2959,</p>
+<p>    "Dependents": 2,</p>
+  <p>  "Financial Goals Met (%)": 68</p>
+<p>  }</p>
+<p>] </p>
 
 
 
