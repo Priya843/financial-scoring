@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Score Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background: #f0f8ff;
+            border: 1px solid #b6d4fe;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Score Calculator</h1>
+        <form id="scoreForm">
+            <label for="transactionData">Transaction Data (ARRAY):</label>
+            <textarea id="transactionData" rows="5" required></textarea>
+            
+            <button type="submit">Calculate Score</button>
+        </form>
+        <div class="output" id="output"></div>
+    </div>
+    <script>
+        document.getElementById('scoreForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const transactionData = document.getElementById('transactionData').value;
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/api/calculate_score', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        transactionData: JSON.parse(transactionData)
+                    })
+                });
+
+                const result = await response.json();
+                result.forEach((family) => {
+                    const familyId = family['Family ID'];
+                    const financialScore = family['Financial_Score'];
+                    const recommendations = family['Recommendations'].join('\n'); // Joining recommendations with a newline
+                    
+                    // Generating the output text
+                    const outputText = `
+                        Insights for family: ${familyId}
+                        Financial Score: ${financialScore}
+                        Recommendations:
+                        ${recommendations}
+                    `;
+                    
+                    // Append the result to an element in your HTML, for example, a div with id 'output'
+                    const outputElement = document.getElementById('output');
+                    outputElement.innerText += outputText + '\n\n';  // Adding the output with spacing between families
+                });
+            } catch (error) {
+                document.getElementById('output').innerText = 'Error: ' + error.message;
+            }
+        });
+    </script>
+</body>
+</html>
