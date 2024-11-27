@@ -392,5 +392,6 @@ transactionData (JSON): A list of transactions for a family, each containing det
 <p>  }</p>
 <p>] </p>
 
-
+<h1> Sample Output Screenshot</h1>
+<img src="output sample picture.jpeg" alt="Description of Image" width="500" height="300"> </img>
 
