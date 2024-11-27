@@ -118,60 +118,68 @@ Request Payload:
 transactionData (JSON): A list of transactions for a family, each containing details like income, expenses, savings, and category distributions.
     </ul>
 </ol>
-***Key Components***
+<hr>
+<h1>Key Components</h1>
 
-Flask Framework:
+<h2>Flask Framework:</h2>
 
-Used to create the API.
-Provides a lightweight and extensible framework for web applications.
-Flask-CORS:
+<p>Used to create the API.</p>
+<p>Provides a lightweight and extensible framework for web applications.</p>
 
-Enables Cross-Origin Resource Sharing (CORS), allowing the API to be accessed from web applications hosted on different domains.
-Logic Layer (process_financial_data):
+<h2>Flask-CORS:</h2>
 
-The core function that processes the input data, calculates financial scores, and generates recommendations.
-Implemented in the model.py file.
-Implementation Highlights
-Error Handling:
+<p>Enables Cross-Origin Resource Sharing (CORS), allowing the API to be accessed from web applications hosted on different domains.</p>
 
-Wrapped in a try-except block to handle unexpected issues gracefully.
-Returns detailed error messages to assist debugging.
-Debugging and Logging:
+<h2>Logic Layer (process_financial_data):</h2>
 
-Includes print statements for debugging to log incoming data and results.
-Modularity:
+<p>The core function that processes the input data, calculates financial scores, and generates recommendations.</p>
+<p>Implemented in the model.py file.</p>
+<p>Implementation Highlights</p>
 
-Separation of concerns between the API (app.py) and core logic (model.py), ensuring maintainability and scalability.
+<h2>Error Handling:</h2>
+
+<p>Wrapped in a try-except block to handle unexpected issues gracefully.</p>
+<p>Returns detailed error messages to assist debugging.</p>
+
+<h2>Debugging and Logging:</h2>
+
+<p>Includes print statements for debugging to log incoming data and results.</p>
+
+<h2>Modularity:</h2>
+
+<p>Separation of concerns between the API (app.py) and core logic (model.py), ensuring maintainability and scalability.</p>
+
+<hr>
+<h1>Deployment Instructions</h1>
+
+<ul>
+<b>1. Ensure Python and Flask are installed:</b>
+<p>pip install flask flask-cors</p>
+
+<b>2. Run the API:</b>
+<p>python app.py</p>
 
 
-***Deployment Instructions***
+<p>Access the API locally at http://127.0.0.1:5000/api/calculate_score.</p>
 
-1. Ensure Python and Flask are installed:
-pip install flask flask-cors
+</ul>
 
-2. Run the API:
-python app.py
-
-
-Access the API locally at http://127.0.0.1:5000/api/calculate_score.
-
-
-***Sample Input***
+<h1>Sample Input</h1>
 
 [
   {
-    "Family ID": "FAM001",
-    "Member ID": "FAM001_Member1",
-    "Transaction Date": "07/10/2024",
-    "Category": "Travel",
-    "Amount": 409.12,
-    "Income": 113810,
-    "Savings": 20234,
-    "Monthly Expenses": 5781,
-    "Loan Payments": 2422,
-    "Credit Card Spending": 2959,
-    "Dependents": 2,
-    "Financial Goals Met (%)": 68
+    <p>"Family ID": "FAM001",</p>
+    <p>"Member ID": "FAM001_Member1",</p>
+   <p> "Transaction Date": "07/10/2024",</p>
+   <p> "Category": "Travel",</p>
+   <p> "Amount": 409.12,</p>
+    <p>"Income": 113810,</p>
+    <p>"Savings": 20234,</p>
+    <p>"Monthly Expenses": 5781,</p>
+    <p>"Loan Payments": 2422,</p>
+    <p>"Credit Card Spending": 2959,</p>
+    <p>"Dependents": 2,</p>
+    <p>"Financial Goals Met (%)": 68</p>
   },
   {
     "Family ID": "FAM001",
