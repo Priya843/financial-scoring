@@ -163,7 +163,10 @@ transactionData (JSON): A list of transactions for a family, each containing det
 <p>Access the API locally at http://127.0.0.1:5000/api/calculate_score.</p>
 
 </ul>
-
+<hr>
+<h1> Sample Output Screenshot</h1>
+<img src="sample.jpeg" alt="Description of Image" width="500" height="300"> </img>
+<hr>
 <h1>Sample Input</h1>
 
 <p>[</p>
@@ -392,6 +395,5 @@ transactionData (JSON): A list of transactions for a family, each containing det
 <p>  }</p>
 <p>] </p>
 
-<h1> Sample Output Screenshot</h1>
-<img src="sample.jpeg" alt="Description of Image" width="500" height="300"> </img>
+
 
