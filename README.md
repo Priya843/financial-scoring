@@ -49,7 +49,7 @@ xgboost
   </ol>
   <ol>
     
-6. Model Evaluation
+<b>6. Model Evaluation<b>
 Description: Evaluate model performance using metrics like:
 Accuracy
 Precision
@@ -61,31 +61,22 @@ classification_report()
 roc_curve()
 auc()
   </ol>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-7. Hyperparameter Tuning
+  <ol>
+    <b>7. Hyperparameter Tuning</b>
 Description: Optimize model parameters for better performance.
 Key Techniques:
 Grid Search
 Randomized Search
-
-8. Results Visualization
+  </ol>
+  <ol>
+    <b>8. Results Visualization</b>
 Description: Visualize key insights using plots for:
 Feature importance
 Confusion matrix
 ROC curve
-
-9. Deployment
+  </ol>
+  <ol>
+    <b>9. Deployment</b>
 Description: Export the final model for deployment.
 Key Steps:
 Save the trained model using joblib or pickle.
@@ -99,6 +90,12 @@ xgboost: Gradient boosting algorithms
 System Requirements:
 Python 3.x
 Adequate memory for handling large datasets
+  </ol>
+</ul>
+
+
+
+
 
 
 ***API Documentation for Financial Insights and Scoring***
